@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Reviewing_the_CSharp.Models {
+﻿namespace Reviewing_the_CSharp.Models {
   public class Subscriber {
     public string LastName { get; }
     public string PhoneNumber { get; } // Формат xxуу (например, 1234)

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Reviewing_the_CSharp.Tasks {
+﻿namespace Reviewing_the_CSharp.Tasks {
   public static class TaskDensity {
 
     // Вычисляет плотность материала детали
