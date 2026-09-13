@@ -1,9 +1,9 @@
 ﻿using Reviewing_the_CSharp.Models;
 
 namespace Reviewing_the_CSharp.Tasks {
-  public static class Task8_PhoneBook {
+  public class TaskPhoneBook {
     // Фильтрует список абонентов, у которых код города (бб) совпадает с кодом номера (уу)
-    public static List<Subscriber> FilterSubscribers(List<Subscriber> subscribers) {
+    public List<Subscriber> FilterSubscribers(List<Subscriber> subscribers) {
       var result = new List<Subscriber>();
 
       if (subscribers == null) {

@@ -25,7 +25,7 @@
       AreaCode = areaCode;
     }
 
-    private static bool IsDigitsOnly(string textToCheck) {
+    private bool IsDigitsOnly(string textToCheck) {
       if (string.IsNullOrEmpty(textToCheck)) {
         return false;
       }

@@ -1,8 +1,8 @@
 ﻿namespace Reviewing_the_CSharp.Tasks {
-  public static class TaskDensity {
+  public class TaskDensity {
 
     // Вычисляет плотность материала детали
-    public static double CalculateDensity(double a, double b, double h, double m) {
+    public double CalculateDensity(double a, double b, double h, double m) {
       // Первый катет a (см) должен быть > 0
       if (a <= 0) throw new ArgumentException("Катет a должен быть положительным", nameof(a));
 
